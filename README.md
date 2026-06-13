@@ -2,7 +2,7 @@
 
 A retrieval-augmented generation (RAG) Q&A app: paste a document and ask questions that are answered **grounded in the text**, with **citations** to the exact chunks used. Real retrieval — not a thin LLM wrapper.
 
-**Live demo:** _deploying to Vercel_
+**Live demo:** https://ask-the-docs-eight.vercel.app
 
 ## How it works
 1. **Index** — the document is split into overlapping chunks, each embedded with Gemini (`gemini-embedding-001`).
